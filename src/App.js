@@ -7,8 +7,7 @@ function App(){
     }
     return(
         <div className="App">
-            <h1>hello a tous, parfait</h1>
-            <button onClick={()=> setModal(true)} >Clique pour voir la modal</button>
+            <button onClick={()=> setModal(true)} >Save</button>
             {modal === true ?<Modal close={closeModal} message={'Employee Created'}></Modal>: null}
         </div>
     )
