@@ -1,6 +1,6 @@
 .modal{
     position: absolute;
-    background: gray;
+    background-color: rgb(196, 196, 221);
     top: 40%;
     width: 25%;
     left: 35%;
@@ -10,4 +10,11 @@
     align-items: center;
     border-radius: 5px;
     padding-bottom: 5px;
+}
+.close-button{
+    background: white;
+    border-radius: 5px;
+    height: 3vh;
+    width: 6vw;
+    border: 1px solid #ccc;
 }
