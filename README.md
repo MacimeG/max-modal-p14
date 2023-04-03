@@ -15,8 +15,8 @@ you can use this modal for form validation
 | Name          | Type              | Description                                         |
 | --------------| -----------       | -----------                                         |
 | props         | String or Boolean | props for modal                                     |
-| props.message | String            | props for show/change the message inside the modal  |
-| props.close   | Boolean           | props for close the modal                           |
+| message       | String            | props for show/change the message inside the modal  |
+| close         | Boolean           | props for close the modal                           |
 
 
 # example
@@ -38,5 +38,5 @@ function Component(){
     )
 }
 
-export default App
+export default Component
 ```
